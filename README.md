@@ -1,18 +1,16 @@
 # aws-architect
 Practice for AWS Architecture
 
-## Network | Compute | Storage | Database
+## Architectures
+- VPC - EC2 SSH Connections
+        ![](/images/ec2-ssh.svg) 
+- VPC - IGW, NGW
+- VPC Peering, Public, Private Subnets
+- Web Server on EC2 With Fileshare
+- EC2 High Availablity (Set/Zone/Region)
+- L4 Load Balancer for Web
+- L7 Load Balancer for Web
+- Web - WAS - DB 3 Tier
+- VPC Hub and Spoke
 
-1. EC2 SSH Connect
-
-- ACL 은 Stateful 방화벽, 서브넷 단위
-- SG 는 Stateless 방화벽, 인스턴스 단위
-- 인터넷 통한 인스턴스 접근 위해서는 IGW 생성후 Routing Table 규칙 생성 필요 (0.0.0.0 to IGW)
-
-    ![](/images/ec2-ssh.svg) 
-
-## EKS | Database
-
-## IAM | RBAC
-
-## CLI | IaC
+## AWS and Azure
