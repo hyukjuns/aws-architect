@@ -101,6 +101,6 @@ EC2 Fileshare, S3 Static Web hostirng
 - CloudFormation과 Terraform으로 인프라 자동화
     - CloudFormation 템플릿을 사용해 EC2, S3, RDS 생성
     - Terraform을 활용해 코드 기반 인프라 관리
-
+g
 ## Tip/Ref
 - NAT Gateway는 Free tier 아님
